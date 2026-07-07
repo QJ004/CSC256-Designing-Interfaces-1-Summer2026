@@ -1,0 +1,66 @@
+<!-- Short cut for comment command+? and to get document is Shift+1 will build the html tags -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- this is the first step in making sure our website looks good on a mobile device -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- the text that appears in the browser tab -->
+        <title>Escape Room HTML Example</title>
+
+        <!-- add the link to the external CSS file. -->
+      <link rel="stylesheet" href="main.css">
+    </head>
+    <!-- any text, imgages, videos- all of the content we want to show the user goes in the body section -->
+<body>
+    <!-- the header section is a best practice; typically at the top of the page; may contain menu, logo, page title-->
+    <header>
+        <!-- h1 is the top level heading- page title- only use 1 tag on a page -->
+        <h1>Escape Room HTML Example</h1>
+    </header>
+
+    <!--Put the core content of the page in a main section  -->
+    <main>
+        <!-- We are organizing the rooms using the article pages -->
+        <article>
+            <!-- h2 is the second level heading meanign the subtile -->
+            <h2>Doors</h2>
+            <!-- image is <img scr=./ -->
+             <!-- always add an "alt=" for the description of the image  -->
+            <img src="./images/escape_room_doors.jpeg" alt="Doors" id="img1">
+            <p id="pDoor"></p>
+        </article>
+
+        <article>
+            <!-- h2 is the second level heading meanign the subtile -->
+            <h2>Bed</h2>
+            <!-- image is <img scr=./ -->
+             <!-- always add an "alt=" for the description of the image  -->
+            <img src="./images/escape_room_bed.jpg" alt="Bed">
+            <p id="pBed"></p>
+        </article>
+
+        <article>
+            <!-- h2 is the second level heading meanign the subtile -->
+            <h2>Room</h2>
+            <!-- image is <img scr=./ -->
+             <!-- always add an "alt=" for the description of the image  -->
+            <img src="./images/escape_room.jpeg" alt="Room">
+            <p id="pRoom"></p>
+        </article>
+    </main>
+
+    <!-- anything that needs to go at the bottom of the page- legal stuff -->
+    <footer>
+
+    </footer>
+    <!-- this should be the next to last line of our .html page -->
+
+    <!-- our JavaScript code is writen in between opening and closing script tags -->
+     <!-- to include the JavaScript file, use the src attribute with the file name. -->
+      <!-- If I want to move the JavaScript code to the head section, to make it with the CSS I can but it was to be written <script scr="file name" defer></script> for it to wait until I am done building the HTML-->
+    <script src="escape_room.js"></script>
+</body>
+<!-- this should be the last line of our .html page-->
+</html>
+

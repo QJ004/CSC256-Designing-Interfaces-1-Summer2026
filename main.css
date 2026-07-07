@@ -1,0 +1,31 @@
+body{
+    background-color: lightblue;
+    color:blueviolet;
+    font-family: 'franklin gothic medium', 'arial narrow', arial, sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* this img selecor will affect all images on the page- setting their widths to 300px */
+img{
+    width: 95%;
+    height: 500px;
+    max-width: 400px;
+    object-fit: cover;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+
+@media (max-width: 600px){
+    main{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
