@@ -1,9 +1,9 @@
 // the array of images to use in the slideshow
 let arrImages = [
-"./images/NewYorkCity images/blueStreet lights.jpg",
-"./images/NewYorkCity images/bridgeNightLife.jpg",
-"./images/NewYorkCity images/eveningCityView.jpg",
-"./images/NewYorkCity images/purpleStreetLights.jpg",
+"./images/blueStreet lights.jpg",
+"./images/bridgeNightLife.jpg",
+"./images/eveningCityView.jpg",
+"./images/purpleStreetLights.jpg",
 ];
 
 // create a variable to keep track of the current selected image
